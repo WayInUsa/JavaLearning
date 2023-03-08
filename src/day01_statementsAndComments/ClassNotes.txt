@@ -1,0 +1,72 @@
+Hello everybody, today we will start first day Java
+And here I would like to talk only about java it self.
+We might have more videos about intellij idea but in this course we would learn java only.
+
+So Lets start from creating project and package and class
+- We will go to souce  src folder and would create package named day01_statementsAndComments
+- Lets create new Java Class in this fider called TellMeAboutYourSelf
+	
+	Make sure you will name your class with first capital letter and with camel case!
+	Also please try to avoid names like String, System, Print and etc...
+	Because it Might be a problem, and you can break your project!
+	Camel case is need to make code more readable.
+	
+	Here we will need to simply print short information about us and of course mention Hello World
+	
+	Print "Hello, My name is Yurii"
+	Print "I live in Chicago"
+	Print "I like to write java code"
+	
+- Lest start so first of all we need to call main method, for now you dont need to know what is this
+	we will come back later to it. All what you will need to know for now that we will use main method for a while.
+	And inside Main method we will call command System.out.println and pint inside our data.
+
+- Lets create new class PrintVsPrintln
+	What is the difference between System.out.println and System.out.print
+	All difference is that if you using ln ending than after your text system will go to the new like.
+	Like system will click enter if you want to hear it this way.
+	Other wise without ln when its just print it would stay at the same line!
+	So when we will to print something else it will start printing from same line.
+
+- create new class EscapeSequence
+	we also can use EscapeSequence.
+	As you can see we are using our text inside double quotes
+	so if we would need to use double quotes in our text we must use \" and for single \'
+	In order to put backslash \ you can do \\
+	Also here is more EscapeSequence for start from new line lige printLn was doing we could use \n
+	and for 4 spaces(Tab when you typing) we could use \t
+
+- Lets talk about comments, please create class named CommentExamples
+	and lets print here Hello World
+	1.So first what I would like to talk its shortcut ctrl+/ (Slash)
+	it would coment your line witch was selected or picked and jump to the next line.
+	With the same order you can un comment it.
+	Also you can select multiple lines like this.
+	2. The method of commenting is // here is more methods like /* */ this method will comment all code between comment signs.
+	3. another way to comment its /** */ here logic are the same, but you can add instructions in to it.
+	Its like small readme for developers
+	4.Another method for commenting its //todo: and here you can leave comment in oder to come back to this part.
+	This type of comment would give you chance to find it in todo section.
+	
+	HomeWork
+	Create new Class called ShoppingReceipt
+	and make sure program can print example bellow:
+	Hint -> try to use \t, \n, \", \' you can add comments
+	
+------------------------------------------------------------
+****************************
+   WELCOME TO THE STORE
+****************************
+-------------------------
+Pizza:			$23
+Water:			$2.99
+Tomato Juice:	$7.5
+Bread:			$5.25
+-------------------------
+TOTAL AMOUNT:	$38.74
+TAX:			$3.874
+GRAND TOTAL:	$42.614
+-------------------------
+*******THANK YOU*********
+------------------------------------------------------------
+
