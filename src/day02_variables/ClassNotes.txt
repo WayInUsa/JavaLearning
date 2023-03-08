@@ -1,0 +1,74 @@
+How to declare and assign variables
+
+	Variables
+	What is a variable
+	a container that holds some data
+	This helps because we can use those variables/data easily multiple times by using just the variable name
+	This helps us be able to change the data/value and from then on the variable value is updated 
+
+	How to declare and assign variables
+
+		dataType variableName; // This is just declaration 
+		Ex: int age; 
+		1) Data type: kind of data that the variable can hold
+
+		primitive dataTypes:
+			whole number: byte, short, int, long, 
+			decimal/floating number: float, double
+			other: char, boolean
+
+		non-primitive datatypes:
+			String
+			Example above, int is the datatype
+
+		2) Variable name
+
+			Example above, age is the variable name
+			The name is how we use/access the data/value inside of it
+			Variable names need to be unique. You cannot use the name again. 
+
+
+	Examples of variables
+
+		int numberOfStudents;
+		byte monthNumber;
+		short year;
+
+
+	Declaration and assignment
+	Its also possible to declare and assign at the same time
+	ex: int students = 200;
+
+	To use a variable's value we use just the variable name
+
+		ex: int students = 200;
+		System.out.println(students); // this will print 200
+		System.out.println("students"); // this will print student as text
+		System.out.println(STUDENTS); // this will give an error because
+
+
+	Reassigning a variable value
+
+		You can change the value of a variable by reassigning a value 
+		int version = 4;
+		System.out.println(version);    // this prints 4
+		version = 6; 			// reassign version to have a value of 6
+		System.out.println(version); 	// this prints 6
+
+DataTypes
+
+	whole numbers: byte -> short -> int -> long
+
+	decimal number: float, double
+
+	characters: char
+
+	boolean: boolean
+
+	Default dataTypes
+		whole numbers: int
+		decimal numbers: double
+
+		long values: we put L or l to clarify that the number is a long type not an int 
+
+		float values: we put F or f to clarify that the number is a float type not a double
