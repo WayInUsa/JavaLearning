@@ -1,10 +1,10 @@
 Hello everybody, today we will start first day Java
-And here I would like to talk only about java it self.
+And here I would like to talk only about java itself.
 We might have more videos about intellij idea but in this course we would learn java only.
 
 So Lets start from creating project and package and class
-- We will go to souce  src folder and would create package named day01_statementsAndComments
-- Lets create new Java Class in this fider called TellMeAboutYourSelf
+- We will go to source  src folder and would create package named day01_statementsAndComments
+- Lets create new Java Class in this finder called TellMeAboutYourSelf
 	
 	Make sure you will name your class with first capital letter and with camel case!
 	Also please try to avoid names like String, System, Print and etc...

@@ -17,7 +17,7 @@ How to declare and assign variables
 			decimal/floating number: float, double
 			other: char, boolean
 
-		non-primitive datatypes:
+		non-primitive datatype:
 			String
 			Example above, int is the datatype
 
