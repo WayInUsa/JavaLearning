@@ -1,0 +1,145 @@
+Variable naming rules in java
+
+	Variable names should be as clear as possible for the data they will hold
+		bad examples:
+			int a;
+			int z;
+			double d;
+			byte _b;
+
+	1) We cannot use reserved keywords that already exist in java
+		Ex: public, class, byte, int, for, if, package, void
+
+	2) The name can contain:
+		letters: A-Z or a-z
+		numbers: 0-9
+		Only special characters that are valid: $ and _
+
+		Multi worded variables follow camel case:
+			first word is lowercase, followed by any other word starting with an uppercase letter
+
+			normal: he just wrote it
+			camel case: heJustWroteIt
+
+		int apples12345;
+		int $salary;
+		int number_of_students; -> okay but not preferred, you would camel case
+
+
+	3) Cannot start with a number, but it contain a number anywhere else
+
+		Ex: 
+			1stWord -> INVALID
+			word2 -> VALID
+
+			_1Number
+
+	4) $ and _ are allowed, but they are not preferred 
+
+____________________________________________________________
+
+Datatypes continued
+
+Lets create new Class BooleanExamples
+
+	
+	boolean
+		values can be true or false
+
+		in the future we will get these values from other places and not need to always define ourselves 
+
+Lets create new Class Char Examples
+
+	char 
+		value is a single character
+
+		we use single quotes to hold the characters
+
+			Ex: 
+				char letter = 'A';
+
+
+		Q: how does the computer know we want a certain character 		
+
+		Unicode: all characters have a number value 
+
+		ASCII table
+			American Standard Code for Information Interchange
+
+		Ex:
+			a -> 97
+
+		Every letter, number, symbol, etc the characters have a number mapped to it. 
+
+		char datatype can be give a value in two ways
+			1) character inside of a single quotation  ''
+				ex: char grade = 'A';
+			2) use the number that is representing each character
+				ex: char grade = 65;
+
+Lets create class YourName for practice of Concatenation of chars. 
+
+	String
+
+		String is not primitive type
+
+		value of the String is a sequence of characters
+
+			the value is surrounded by double quotations ""
+
+		concatenation
+			works with String
+			combines the two parts together and the datatype of the value at end is a String
+
+			concatenations vs addition
+				String + String -> concatenation
+				String + number -> concatenation
+					values of the String and number type are combined, output value is String
+				String + char -> concatenation
+					values of the String and a char is added to it, final output value is String
+				number + number -> addition 
+				char + char -> addition 
+
+
+Lets create CastingExamples to practice casting
+
+	Debugging: 
+		Bug: an issue in your code
+		Debug: go through each line to find the issue
+
+	Type casting
+
+		Converting a primitive datatype to a different type
+
+		Widening casting 
+			Going from a smaller datatype to a bigger datatype
+			Happens automatically 
+
+
+		Narrowing casting
+			Going from a bigger datatype to a smaller datatype
+			Happens manually
+
+			Casting Formula:
+				smallerDatatype varName = (smallerDatatype) biggerDatatypeValue
+
+		Data loss: if you go from a bigger datatype to a smaller datatype and the smaller datatype cannot hold the value in the range there will be some data lost
+
+		char <-> int
+			able to cast between these types
+
+____________________________________________________________
+
+
+	type casting (primitive datatypes)
+		changing the datatype from one type to another
+
+		Widening convention
+		smaller type to a bigger type: automatically
+			int i = 0;
+			double d = i;
+
+		Narrowing convention
+		bigger type to a smaller type: manually 
+			double d = 9;
+			int i = (int)d;
